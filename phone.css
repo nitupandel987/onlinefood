@@ -31,6 +31,17 @@ padding: 3px 28px;
     margin: 2px 0px;
     margin-bottom: 20px;
 }
+#delivery h1{
+    font-size: 1.5rem;
+    padding-bottom:20px;
+}
+#delivery p{
+    font-size: 1.2rem;
+}
+#delivery h4{
+    font-size: 1.4rem;
+}
+
 /* Client Section */
 #clients{
     flex-wrap: wrap;

@@ -102,6 +102,7 @@ margin:10px 34px;
     display: flex;
   
 }
+
 #service-container{
     background: url(img/pexels-rachel-claire-4846300.jpg) ;
 
@@ -130,6 +131,33 @@ background-color: honeydew;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* DELIVERY SECTION */
+#delivery {
+ 
+height: 300px;
+width: 100%;
+background: url(img/pexels-norma-mortenson-4393667.jpg) no-repeat center center/cover;
+color: darkblue;
+text-shadow: 2px 2px 1px lightblue;
+align-items: center;
+justify-content: center;
+font-family:'Times New Roman', Times, serif;
+}
+#delivery h1{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+#delivery p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+#delivery h4{
+    color :red;
+    font-size: 2rem ;
+    padding-top: 30px;
+}
+
 
 /* CLIENT SECTION */
 #client-section{
@@ -148,7 +176,7 @@ position: relative;
 #client-section::before{
     content: "";
     position: absolute;
-    background: url(img/pexels-william-choquette-2641886.jpg)no-repeat center center/cover;
+    background: url(img/pexels-daria-shevtsova-1095550.jpg)no-repeat center center/cover;
     width: 100%;
     height:100%;
     z-index: -1;
@@ -202,7 +230,7 @@ footer{
 .h-primary{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.4rem;
-    padding: 12px;
+    /* padding: 12px; */
 
 }
 .h-secondary{
